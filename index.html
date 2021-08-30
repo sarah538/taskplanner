@@ -17,30 +17,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav navbar-nav navbar-center" id="nav-center">
           <li class="nav-item">
-            <img src= "images/logo.jpg">
+            <img src= "images/logo.jpg"> 
           </li>
-          </ul>
-          <nav class="nav-item">Task Planner </nav>
-            <!-- <h5 class="modal-title">Task Planner</h5> -->
-          
-          
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li> -->
-        <!-- </ul> -->
+             </ul>
+       <!-- <div class="center">
+        <h4 class="modal-title">Task Planner</h4>
+       </div> -->
+       
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -48,14 +33,39 @@
       </div>
     </div>
   </nav>
-
-
-
-
-
   <!-- navigation ends here -->
-    <!-- Modal Start Here -->
-    <div class="modal" tabindex="-1">
+  <h1> Task Planner</h1>
+
+  <!-- <button type="button" class="btn btn-success">Create</button> -->
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- <div class="modal" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -65,7 +75,7 @@
             </div>
             <br>
             <div class="modal-body">
-              <!-- <p>Modal body text goes here.</p> -->
+              <p>Modal body text goes here.</p>
               <label for="tname">Name </label> 
               <input type="text" id="tname" name="tname">
               <br>
@@ -83,7 +93,7 @@
           </div>
         </div>
       </div>
-
+ -->
 
 
     <!-- Modal Ends Here -->

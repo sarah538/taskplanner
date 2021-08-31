@@ -14,9 +14,8 @@ h1{
      flex-wrap: wrap; 
      padding: 0px 4px;
      border: black 1px solid;
-     grid-column: ;
-    justify-content: center;
-    flex-direction: row;
+     justify-content: center;
+     flex-direction: row;
  }
  /* .card-body{
     flex-basis: 25%; 

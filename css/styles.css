@@ -4,10 +4,10 @@ img{
 }
 h1{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 *{
-    background-color: rgb(249, 250, 252);
+    background-color: rgb(246, 247, 248);
 }
 .row{
     display: flex; 
@@ -15,12 +15,12 @@ h1{
      padding: 0px 4px;
      border: black 1px solid;
  }
- .card-body{
+ /* .card-body{
     flex-basis: 25%; 
     max-width: 25%; 
     margin-top: 8px;
     
-}
+} */
 .btn{
     background-color: rgb(249, 250, 252);
 }

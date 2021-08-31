@@ -7,9 +7,11 @@
     <title>Task Planner</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
 </head>
+
 <body>
-  <!-- <h1>Welcome To The Page</h1>  -->
+ 
    <!-- navigation starts here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -36,123 +38,130 @@
   </nav>
   <!-- navigation ends here -->
   <h1> Task Planner</h1> 
-  <!-- Modal Starting Here -->
-  <!-- Button trigger modal -->
-
+ <!-- Modal Starting Here -->
+<!-- Button trigger modal -->
+<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Create
+  </button>
   
   <!-- Modal -->
-  <form action="#">
-    <div class="container">
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Create
-    </button>
-    <div class="container">
-
-      <div class="row">
-          
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Edit</a>
-              <a href="#" class="card-link">Delete</a>
-            </div>
-        </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Edit</a>
-                  <a href="#" class="card-link">Delete</a>
-                </div>
-            </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Edit</a>
-                      <a href="#" class="card-link">Delete</a>
-                    </div>
-                </div>
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Edit</a>
-                          <a href="#" class="card-link">Delete</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Edit</a>
-                        <a href="#" class="card-link">Delete</a>
-                      </div>
-                  </div>
-              </div>   
-          </div>
-        </div>
+  <div class="container">
+  
+  <div class="row">
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Create Git Repo</h5>
+  <h6 class="card-subtitle mb-2 text-muted">Collaborate</h6>
+  <p class="card-text">Fist step of the project is creating repo and Colloborate with in the team and creating branches. </p>
+  <p>Lavanya</p>
+  <p>30/08/21</p>
+  <p>Done</p>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="delete" class="btn btn-secondary">Delete</button>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Wire Frame</h5>
+  <h6 class="card-subtitle mb-2 text-muted">Blue Print </h6>
+  <p class="card-text">Create your wire frame using tools like figma, ninjamock.</p>
+  <p>Kalyani</p>
+  <p>30/08/21</p>
+  <p>Done</p>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="delete" class="btn btn-secondary">Delete</button>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Implementing The Wire Frame</h5>
+  <h6 class="card-subtitle mb-2 text-muted">Using Bootstrap, HTML, CSS</h6>
+  <p class="card-text">Creating sample form and card in the layout and checking them working or not.</p>
+  <p>Sarah</p>
+  <p>30/08/21</p>
+  <p>Done</p>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="delete" class="btn btn-secondary">Delete</button>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Card title</h5>
+  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="delete" class="btn btn-secondary">Delete</button>
+  </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Card title</h5>
+  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="delete" class="btn btn-secondary">Delete</button>
+  </div>
+  </div>
+  </div>
+  <!-- </div>
+  </div> -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add A Task</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default"><label>Name</label></span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Assigned To</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <!-- <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div> -->
-              <div class="input-group">
-                <span class="input-group-text">Description</span>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
-              </div>
-              <br>
-              <div>
-              <label for="date">Due Date:</label>
-              <input type="date" id="date" name="date">
-                </div>
-                <br>
-                <div class="input-group mb-3">
-                    <button class="btn btn-outline-secondary" type="button">Status</button>
-                    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                      <!-- <option selected>Choose...</option> -->
-                      <option value="1">To Do..</option>
-                      <option value="2">In Progress</option>
-                      <option value="3">Review</option>
-                      <option value="4">Done</option>
-                    </select>
-                  </div>
-              
-        
-        <div class="modal-footer">
-          <!-- <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Reset</button> -->
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="reset" class="btn btn-secondary">Reset</button>
-        </div>
-      </div>
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">Add A Task</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-  </div>
-</form>
-  <!-- Modal Ends Here -->
+    <div class="modal-body">
+    <form action="#">
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Assigned To</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <!-- <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div> -->
+    <div class="input-group">
+    <span class="input-group-text">Description</span>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <br>
+    <div>
+    <label for="date">Due Date:</label>
+    <input type="date" id="date" name="date">
+    </div>
+    <br>
+    <div class="input-group mb-3">
+    <button class="btn btn-outline-secondary" type="button">Status</button>
+    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+    <!-- <option selected>Choose...</option> -->
+    <option value="1">To Do..</option>
+    <option value="2">In Progress</option>
+    <option value="3">Review</option>
+    <option value="4">Done</option>
+    </select>
+    </div>
+    </form>
+    <div class="modal-footer">
+    <!-- <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Reset</button> -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+    </div>
+    </div>
+    </div>
   
+  <!-- Modal Ends Here -->
   <script src="javascript/date.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+  </html>
 </body>
+  
 </html>
